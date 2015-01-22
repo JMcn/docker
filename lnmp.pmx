@@ -1,7 +1,22 @@
 ---
 name: lnmp
 description: ''
-keywords: lnmp
-type: Ubuntu
+keywords: ''
+type: Default
 documentation: ''
-images: []
+images:
+- name: php
+  source: php:5.6.3-fpm
+  type: Default
+- name: nginx
+  source: nginx:latest
+  type: Default
+- name: memcached
+  source: memcached:latest
+  type: Default
+- name: mongo
+  source: mongo:latest
+  type: Default
+- name: mysql
+  source: mysql:latest
+  type: Default
